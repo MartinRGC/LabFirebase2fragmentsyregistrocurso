@@ -17,7 +17,9 @@ class MainActivity : AppCompatActivity() {
         val tvcurso: TextView = findViewById(R.id.tvcurso)
         val tvnota: TextView = findViewById(R.id.tvnota)
 
-        // coleccion de firebase xd
+        // coleccion de firebase
+        // coleccion de firebase
+
 
         db.collection("courses")
             .addSnapshotListener{ snapshots, e ->

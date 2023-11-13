@@ -3,4 +3,5 @@
     <string name="lOGINBUTTON">LOGIN</string>
     <string name="hintemail">Escriba su correo</string>
     <string name="textpassword">Escriba su clave</string>
+
 </resources>
