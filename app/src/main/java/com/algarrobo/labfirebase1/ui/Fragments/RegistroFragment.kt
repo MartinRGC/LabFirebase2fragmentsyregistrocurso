@@ -24,6 +24,7 @@ class RegistroFragment : Fragment() {
         // Inflate the layout for this fragment
         val view: View = inflater.inflate(R.layout.fragment_registro, container, false)
 
+
         val txtcourse: EditText = view.findViewById(R.id.txtcourse)
         val txtscore: EditText = view.findViewById(R.id.txtscore)
         val btnsave: Button = view.findViewById(R.id.btnsave)
