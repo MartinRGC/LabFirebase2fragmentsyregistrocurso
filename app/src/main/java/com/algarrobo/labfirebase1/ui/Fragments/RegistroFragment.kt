@@ -30,6 +30,7 @@ class RegistroFragment : Fragment() {
 
         val db = FirebaseFirestore.getInstance()
 
+
         btnsave.setOnClickListener {
             // obtener lo que escribio el usuario
             var curso = txtcourse.text.toString()
